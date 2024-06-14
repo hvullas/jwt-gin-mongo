@@ -12,7 +12,6 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
-	"github.com/go=playground/validator/v10"
 	"github.com/hvullas/jwt-gin-mongo/database"
 	"github.com/hvullas/jwt-gin-mongo/helpers"
 	"go.mongodb.org/mongo-driver/bson"
