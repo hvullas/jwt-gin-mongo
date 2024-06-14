@@ -27,6 +27,6 @@ func MatchUserTypeToUid(c *gin.Context, userId string) (err error) {
 		return err
 	}
 
-	err = CheckUserType(c.userType)
+	err = CheckUserType(c, userType)
 	return err
 }
