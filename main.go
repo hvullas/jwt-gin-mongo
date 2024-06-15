@@ -1,8 +1,9 @@
 package main
 
 import (
-	routes "jwt-auth-gin/routes"
 	"os"
+
+	routes "github.com/hvullas/jwt-gin-mongo/routes"
 
 	"github.com/gin-gonic/gin"
 )
